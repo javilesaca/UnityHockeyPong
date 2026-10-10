@@ -172,7 +172,7 @@ public class GameManager : MonoBehaviour
         // Restaurar DelanteroUno
         if (JugadorUnoDelantero != null)
         {
-            JugadorUnoDelantero.transform.position = ObtenerPosicionInicial("JugadorUnoDelantero");
+            JugadorUnoDelantero.transform.position = ObtenerPosicionInicial("DelanteroUno");
             JugadorUnoDelantero.SetActive(true);
             JugadorUnoDelantero.GetComponent<Players>().Reset();
         }
@@ -184,7 +184,7 @@ public class GameManager : MonoBehaviour
         // Restaurar DelanteroDos
         if (JugadorDosDelantero != null)
         {
-            JugadorDosDelantero.transform.position = ObtenerPosicionInicial("JugadorDosDelantero");
+            JugadorDosDelantero.transform.position = ObtenerPosicionInicial("DelanteroDos");
             JugadorDosDelantero.SetActive(true);
             JugadorDosDelantero.GetComponent<Players>().Reset();
         }
@@ -340,8 +340,5 @@ else
     {
         Debug.Log("Escena de créditos cargada. No se aplica cambio de sprites.");
     }
-
-    // Desvincular el evento para evitar llamadas múltiples
-    SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
