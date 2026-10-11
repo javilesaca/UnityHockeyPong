@@ -1,5 +1,10 @@
 🕹️ HOCKEY PONG - Un clásico con estilo moderno Hockey Pong es un proyecto inspirado en el legendario Pong de Atari, reinventado con una estética más moderna y nuevas mecánicas de juego. Desarrollado en Unity, este juego mantiene la esencia clásica del pong arcade, pero añade mejoras visuales, un delantero, animaciones, sonidos, modos de juego y una IA desafiante para un jugador.
 
+🎮 Demo jugable: https://lesacamedina.itch.io/hockey-pong
+
+![Menú principal](docs/gif-menu.gif)
+![Partida contra la IA](docs/gif-gameplay.gif)
+
 
 🎮 Características destacadas:
 
